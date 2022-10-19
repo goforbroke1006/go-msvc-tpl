@@ -1,0 +1,42 @@
+openapi: 3.0.3
+info:
+  title: Internal Admin
+  description: Fake sample REST API for internal admin panel
+  version: 1.0.0
+servers:
+  - url: 'http://localhost:8081'
+paths:
+
+  /generate-report:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GenerateReportRequest"
+      responses:
+        200:
+          description: "Report generated successfully"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GenerateReportResponse"
+
+components:
+  schemas:
+    GenerateReportRequest:
+      type: object
+      required: [ date_from, date_till ]
+      properties:
+        date_from:
+          type: integer
+          format: int64
+        date_till:
+          type: integer
+          format: int64
+    GenerateReportResponse:
+      type: object
+      required: [ link ]
+      properties:
+        link:
+          type: string
