@@ -1,4 +1,4 @@
-# Micro service template
+# Golang microservice template
 
 Golang microservice template.
 
