@@ -4,7 +4,7 @@ Golang microservice template.
 
 Try to create microservice template based on my experience.
 
-Long time I collect different ideas from various services.
+Long time I collect different ideas from various projects.
 All of them has pros and cons.
 I just need balanced result to save time when creating a project.
 
