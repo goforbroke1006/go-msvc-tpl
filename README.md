@@ -1,7 +1,5 @@
 # Golang microservice template
 
-Golang microservice template.
-
 Try to create microservice template based on my experience.
 
 Long time I collect different ideas from various projects.
@@ -20,6 +18,8 @@ How I see runtime states of classic service or component of a service:
 1. Initialize logger
 2. Load default settings
 3. Load settings from various sources (file, consul, vault) and override defaults
+4. Run base loop (http server, loop with ticker, etc)
+5. Wait-for-INT-signal mechanism locker
 
 ### Usage
 
