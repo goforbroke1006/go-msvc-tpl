@@ -29,6 +29,6 @@ TODO
 
 * https://github.com/spf13/cobra
 * https://github.com/spf13/viper
-* github.com/labstack/echo (v4)
+* https://github.com/labstack/echo (v4)
 * https://github.com/deepmap/oapi-codegen
 * https://github.com/ClickHouse/clickhouse-go (v2)
